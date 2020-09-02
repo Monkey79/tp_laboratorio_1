@@ -1,0 +1,38 @@
+/*
+ * CommonsUse.c
+ * Created on: 2 sep. 2020
+ * Author: mdangelo
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdio_ext.h>
+#include "CommonsUse.h"
+
+int cm_getPositiveInteger(int iFrom){
+	int iNum=0;
+	do{
+		printf("Ingrese valor desde %d en adelante: ", iFrom);
+		scanf("%d",&iNum);
+		__fpurge(stdin);
+	}while(iNum<iFrom);
+	return iNum;
+}
+float cm_getPositiveFloat2D(float fFrom){
+	float fNum=0.0;
+	do{
+		printf("Ingrese valor desde %f en adelante: ", fFrom);
+		scanf("%f",&fNum);
+		__fpurge(stdin);
+	}while(fNum<fFrom);
+	return fNum;
+}
+void cm_initializeIntArray(int *pIntArr, int iTop, int iEmptyValue){
+	for(int i=0; i< iTop-1; i++){
+		*(pIntArr+i)=iEmptyValue;
+	}
+}
+
+
+
+

@@ -1,0 +1,30 @@
+18:04:16 **** Build of configuration Debug for project Tp1MDangelo ****
+make all 
+Building file: ../src/mdangelo/libs/commons/CommonsUse.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mdangelo/libs/commons/CommonsUse.d" -MT"src/mdangelo/libs/commons/CommonsUse.o" -o "src/mdangelo/libs/commons/CommonsUse.o" "../src/mdangelo/libs/commons/CommonsUse.c"
+Finished building: ../src/mdangelo/libs/commons/CommonsUse.c
+ 
+Building file: ../src/mdangelo/libs/commons/CustomMath.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mdangelo/libs/commons/CustomMath.d" -MT"src/mdangelo/libs/commons/CustomMath.o" -o "src/mdangelo/libs/commons/CustomMath.o" "../src/mdangelo/libs/commons/CustomMath.c"
+Finished building: ../src/mdangelo/libs/commons/CustomMath.c
+ 
+Building file: ../src/mdangelo/libs/Tp1Manager.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/mdangelo/libs/Tp1Manager.d" -MT"src/mdangelo/libs/Tp1Manager.o" -o "src/mdangelo/libs/Tp1Manager.o" "../src/mdangelo/libs/Tp1Manager.c"
+Finished building: ../src/mdangelo/libs/Tp1Manager.c
+ 
+Building file: ../src/Tp1MDangelo.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tp1MDangelo.d" -MT"src/Tp1MDangelo.o" -o "src/Tp1MDangelo.o" "../src/Tp1MDangelo.c"
+Finished building: ../src/Tp1MDangelo.c
+ 
+Building target: Tp1MDangelo
+Invoking: GCC C Linker
+gcc  -o "Tp1MDangelo"  ./src/mdangelo/libs/commons/CommonsUse.o ./src/mdangelo/libs/commons/CustomMath.o  ./src/mdangelo/libs/Tp1Manager.o  ./src/Tp1MDangelo.o   
+Finished building target: Tp1MDangelo
+ 
+18:04:32 **** Incremental Build of configuration Debug for project Tp1MDangelo ****
+make all 
+make: No se hace nada para 'all'.

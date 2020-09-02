@@ -1,0 +1,15 @@
+/*
+ * Tp1Manager.c
+ * Created on: 2 sep. 2020
+ * Author: mdangelo
+ */
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdio_ext.h>
+#include "Tp1Manager.h"
+
+void t1m_startTp1App(void){
+
+}
+
+

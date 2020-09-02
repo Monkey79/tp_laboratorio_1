@@ -11,7 +11,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "mdangelo/libs/Tp1Manager.h"
+
 int main(void) {
-	puts("Hello Tp1"); /* prints Hello Tp1 */
+	tp1m_startTp1App();
 	return EXIT_SUCCESS;
 }

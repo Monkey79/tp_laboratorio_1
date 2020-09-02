@@ -1,0 +1,42 @@
+/*
+ * CustomMath.c
+ * Created on: 2 sep. 2020
+ * Author: mdangelo
+ */
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdio_ext.h>
+#include "CustomMath.h"
+
+#define DIVISION_ZERO_MSSG "Division by zero not Allowed\n"
+
+
+int cmt_addition(int iNum1, int iNum2){
+	return (iNum1+iNum2);
+}
+int cmt_subtraction(int iNum1, int iNum2){
+	return (iNum1 - iNum2);
+}
+int cmt_multiplication(int iNum1, int iNum2){
+	return (iNum1*iNum2);
+}
+int cmt_division(int iNum1, int iNum2){
+	float reslt = 0;
+	if(iNum2==0){
+		printf("======ATTENTION=======\n");
+		printf(DIVISION_ZERO_MSSG);
+		printf("======================\n");
+	}else{
+		reslt = iNum1/iNum2;
+	}
+	return reslt;
+}
+int cmt_factorial(int iFact){
+	int iNum=1;
+	for (int i=iFact; i > 0; i--) {
+		iNum = iNum * i;
+	}
+	return iNum;
+}
+
+
