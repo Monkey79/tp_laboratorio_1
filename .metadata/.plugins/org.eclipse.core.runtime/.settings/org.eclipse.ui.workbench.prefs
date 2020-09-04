@@ -12,6 +12,7 @@ INCOMING_COLOR=31,179,235
 OUTGOING_COLOR=235,237,239
 PLUGINS_NOT_ACTIVATED_ON_STARTUP=;org.eclipse.m2e.discovery;
 RESOLVED_COLOR=104,203,16
+UIActivities.org.eclipse.cdt.debug.dsfgdbActivity=true
 cdataBorder=0,254,254
 cdataText=255,255,255
 commentBorder=75,113,227
