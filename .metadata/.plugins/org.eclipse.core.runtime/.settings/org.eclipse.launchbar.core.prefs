@@ -1,8 +1,10 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:Tp1MDangelo,org.eclipse.launchbar.core.descriptorType.default\:Tp2MDangelo
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Tp1MDangelo,org.eclipse.launchbar.core.descriptorType.default\:Tp2MDangelo,org.eclipse.launchbar.core.descriptorType.default\:Tp3MDangelo Debug,org.eclipse.launchbar.core.descriptorType.default\:tp3_linux
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:Tp1MDangelo/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Tp1MDangelo/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:Tp2MDangelo/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:tp3_linux/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:tp3_linux/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
