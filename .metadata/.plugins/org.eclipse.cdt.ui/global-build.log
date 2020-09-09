@@ -1,6 +1,12 @@
-13:12:08 **** Incremental Build of configuration Debug for project Tp3MDangelo ****
+20:45:06 **** Incremental Build of configuration Debug for project Tp4MDangelo ****
 make all 
-make: No se hace nada para 'all'.
-13:12:13 **** Incremental Build of configuration Debug for project Tp3MDangelo ****
-make all 
-make: No se hace nada para 'all'.
+Building file: ../src/Tp4MDangelo.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Tp4MDangelo.d" -MT"src/Tp4MDangelo.o" -o "src/Tp4MDangelo.o" "../src/Tp4MDangelo.c"
+Finished building: ../src/Tp4MDangelo.c
+ 
+Building target: Tp4MDangelo
+Invoking: GCC C Linker
+gcc  -o "Tp4MDangelo"  ./src/mdangelo/utils/LinkedList.o  ./src/mdangelo/test/test_libs/Employee.o ./src/mdangelo/test/test_libs/addNodeTest.o ./src/mdangelo/test/test_libs/addTest.o ./src/mdangelo/test/test_libs/clearTest.o ./src/mdangelo/test/test_libs/cloneTest.o ./src/mdangelo/test/test_libs/containsAllTest.o ./src/mdangelo/test/test_libs/containsTest.o ./src/mdangelo/test/test_libs/deleteLinkedListTest.o ./src/mdangelo/test/test_libs/getNodeTest.o ./src/mdangelo/test/test_libs/getTest.o ./src/mdangelo/test/test_libs/indexOfTest.o ./src/mdangelo/test/test_libs/isEmptyTest.o ./src/mdangelo/test/test_libs/lenTest.o ./src/mdangelo/test/test_libs/main_test.o ./src/mdangelo/test/test_libs/newTest.o ./src/mdangelo/test/test_libs/popTest.o ./src/mdangelo/test/test_libs/pushTest.o ./src/mdangelo/test/test_libs/removeTest.o ./src/mdangelo/test/test_libs/setTest.o ./src/mdangelo/test/test_libs/sortTest.o ./src/mdangelo/test/test_libs/subListTest.o  ./src/mdangelo/test/utest.o  ./src/Tp4MDangelo.o   
+Finished building target: Tp4MDangelo
+ 
